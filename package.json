@@ -5,5 +5,11 @@
     "express": "^4.15.2",
     "mongoose": "^4.9.7",
     "request": "^2.81.0"
-  }
+  },
+  "main": "app.js",
+  "repository":{
+    "type": "git",
+    "url": "git+https://github.com/sefasaid/movie-prediction-api.git"
+  },
+  "author":"Sefa Said Deniz"
 }
