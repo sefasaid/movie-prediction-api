@@ -11,5 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/sefasaid/movie-prediction-api.git"
   },
-  "author": "Sefa Said Deniz"
+  "author": "Sefa Said Deniz",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "test" : "",
+    "start": "nodemon app.js"
+  }
 }
