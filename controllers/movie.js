@@ -8,7 +8,7 @@ var mongoose = require('mongoose'),
     Movie = mongoose.model('movie');
 
 exports.list_movies = function(req, res) {
-    var skip = 0, limit = 20, sort = "-_id";
+    var skip = 0, limit = 20, sort = "_id";
     if(req.query.skip)
         skip = parseInt(req.query.skip)
     if(req.query.limit)
