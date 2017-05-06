@@ -4,7 +4,6 @@
   "dependencies": {
     "express": "^4.15.2",
     "mongoose": "^4.9.7",
-    "nodeman": "^1.1.2",
     "request": "^2.81.0"
   },
   "main": "app.js",
