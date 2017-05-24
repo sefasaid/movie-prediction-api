@@ -22,5 +22,10 @@ exports.list_movies = function(req, res) {
         })
 };
 
-
+exports.get_one_movie = function (req,res) {
+    Movie.findById(req.params._id).exec(function (err,data) {
+        if(err) res.send(err);
+        res.json(data);
+    })
+}
 

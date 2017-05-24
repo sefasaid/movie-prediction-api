@@ -7,5 +7,6 @@ module.exports = function(app) {
 
     app.route('/')
         .get(movie.list_movies);
-
+    app.route('/:_id')
+        .get(movie.get_one_movie);
 };
